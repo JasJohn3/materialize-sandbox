@@ -194,6 +194,38 @@
     <br>
 
     <!-- END HERE -->
+    <!-- FIXED ACTION BUTTON [horizontal, click-to-toggle] -->
+    <div class="fixed-action-btn horizontal click-to-toggle">
+      <a class="btn-floating waves-effect waves-light btn-large blue">
+        <i class="material-icons">view_module</i>
+      </a>
+      <ul>
+        <li>
+          <a href="./2_1_typography.html" target="_blank" class="btn-floating purple">
+            <i class="material-icons">home</i>
+          </a>
+          <li>
+        <li>
+          <a  class="btn-floating red">
+            <i class="material-icons">insert_chart</i>
+          </a>
+          <li>
+            <a class="btn-floating">
+              <i class="material-icons">link</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating orange">
+              <i class="material-icons">publish</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating green">
+              <i class="material-icons">attach_file</i>
+            </a>
+          </li>
+      </ul>
+    </div>
 
 
   </div>
@@ -213,9 +245,15 @@
         belowOrigin: true,
         alignment: 'left'
       });
-
       // JAVASCRIPT START HERE //
-
+      $('.fixed-action-btn').openFAB();
+      // Opens and closes the Toolbar action button
+      // function LoadPage(){
+      //   $('.fixed-action-btn').openFAB();
+      // setInterval(function(){
+      //   $('.fixed-action-btn').closeFAB();
+      // },1500)
+      // }
 
 
 
